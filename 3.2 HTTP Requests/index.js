@@ -11,7 +11,7 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/contact", (req, res) => {
-  res.send("<h1>Contact Me</h1><p>Phone: +2348085145419</p>");
+  res.send('<h1>Contact Me</h1><p>Phone: +2348085145419</p><p>WhatsApp <a href="https://wa.me/+2347039479761">Click here</a></p>');
 });
 
 app.listen(port, () => {
