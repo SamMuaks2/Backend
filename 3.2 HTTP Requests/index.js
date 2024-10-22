@@ -3,15 +3,15 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
-  res.send("<h1>Hello</h1>");
+  res.send("<h1>Hello, I am Mohri</h1>");
 });
 
 app.get("/about", (req, res) => {
-  res.send("<h1>About Me</h1><p>My name is Angela</p>");
+  res.send("<h1>About Me</h1><p>My name is Mohri</p>");
 });
 
 app.get("/contact", (req, res) => {
-  res.send("<h1>Contact Me</h1><p>Phone: +44123456789</p>");
+  res.send("<h1>Contact Me</h1><p>Phone: +2348085145419</p>");
 });
 
 app.listen(port, () => {
